@@ -1,24 +1,12 @@
-# Redwood
+## This project was built during an online meetup and uses a very old version of Redwood; it is intended for demonstrative and archival purposes only
 
-> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
+[RedwoodJS and the Universal Deployment Machine with Anthony Campolo](https://www.youtube.com/watch?v=QHmBRaizvxE)
 
-## Getting Started
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
+### Run locally
 
-### Setup
-
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
-
-```terminal
+```bash
+git clone https://github.com/ajcwebdev/mintbean-rw.git
+cd mintbean-rw
 yarn install
+yarn rw dev
 ```
-
-### Fire it up
-
-```terminal
-yarn redwood dev
-```
-
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`. 
